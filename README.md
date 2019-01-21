@@ -1,5 +1,5 @@
 # Crystal Collector
-https://efinfl.github.io/Crystal-Collection-Game/
+https://efinfl.github.io/Crystal-Collector-Game-New/
 
 ## Number matching Game: 
 ## Objective: 
