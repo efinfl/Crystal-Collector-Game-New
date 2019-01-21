@@ -1,0 +1,170 @@
+
+/* color values 
+Red: 741, 87, 83 
+Dark Red: 219, 48, 40 
+Beige: 255, 230, 199
+Dark Grey 63, 78, 89
+Blue Grey: 147, 192, 216 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/qbkls.png);
+}
+
+/* FPO box border */
+/* div {
+    border: .5px solid yellow;
+} */
+
+h1, h2, h3 {
+    line-height: 100%;
+    color: rgb(255, 230, 199);
+}
+
+h1 {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 116%;
+    color: rgb(255, 230, 199)
+}
+
+#mainContent{
+    background-color: rgb(241, 87, 83 );
+    padding: 20px;
+    background-image: url(../images/backgroundImg.png);
+    background-size: 450px;
+    background-position-x: 20%;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+#textWrapper {
+    text-align: right;
+    max-width: 400px;
+    margin: 0 10px 0 10%;
+    padding: 0 18px 0 0;
+    border-right: solid 4.5px rgb(255, 230, 199);
+    float: left;
+}
+
+#gameWrapper {
+    max-width: 600px;
+    float: left;
+    margin: 20px 0 0 10px;
+}
+/* wrapps computer choice, user choice, wins, losses */
+#statsWrapp{
+    margin: 0px 0 20px 0;
+    overflow: auto;
+    
+}
+/* Sets common propertied for divs holding the above mentioned */
+.statDivs {
+    float: left;
+    margin-right: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+/* to apply */
+#computer {
+   width: 125px; 
+   height: 120px;
+   background-image: url(../images/computerIcon.png);
+   background-repeat: no-repeat;
+   background-position-y: 5px;
+   
+}
+.choiceValues {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(255, 230, 199);
+}
+
+#user {
+    width: 104px; 
+    height: 120px;
+    background-image: url(../images/headIcon.png);
+    background-repeat: no-repeat;
+}
+
+#score {
+    /* width: 125px; */
+    height: 120px;
+    padding-top: 30px;
+    margin-right: 0;
+}
+
+.btnImages {
+    margin-right: 18px;
+    float: left;
+}
+
+.winLoss {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    color: rgb(255, 230, 199);
+    font-weight: 700;
+    text-align: right;
+}
+
+#winValue {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 400;
+    width: px;
+    background-color: rgb(147, 192, 216);
+    padding: 0px 5px 0px 5px;
+    color: rgb(63, 78, 89);
+}
+
+#lossesValue {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 400;
+    width: px;
+    background-color: rgb(147, 192, 216);
+    padding: 0px 5px 0px 5px;
+    color: rgb(63, 78, 89);
+}
+
+/* Responsive */
+/* @media only screen and (max-width: 900) {
+    #textWrapper {
+        margin: 0;
+        text-align: center;
+    }
+    #gameWrapper {
+    max-width: 650px;
+    float: right;
+    margin: 0 auto;
+    overflow: auto;
+    } */
+
+
+
+
+
+}
